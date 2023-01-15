@@ -8,12 +8,10 @@
     <Compile Include="Main.fs" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Fable.Browser.Dom" Version="2.12.0" />
     <PackageReference Include="Fable.Core" Version="4.0.0-theta-007" />
-    <PackageReference Include="Fable.Elmish" Version="4.0.0" />
-    <PackageReference Include="Fable.Elmish.React" Version="4.0.0" />
     <PackageReference Include="Fable.React" Version="9.2.0" />
     <PackageReference Include="Feliz" Version="2.4.0" />
     <PackageReference Include="Feliz.DaisyUI" Version="2.3.0" />
+    <PackageReference Include="Feliz.UseElmish" Version="2.3.0" />
   </ItemGroup>
 </Project>

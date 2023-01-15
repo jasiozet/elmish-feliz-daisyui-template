@@ -2,6 +2,7 @@ module App
 
 open Feliz
 open Feliz.DaisyUI
+open Feliz.UseElmish
 open Elmish
 
 type State = { count: int }
@@ -26,7 +27,10 @@ let clickableButton isPrimary (text: string) onClick =
     prop.onClick (onClick)
   ]
 
-let render (state: State) (dispatch: Msg -> unit) =
+[<ReactComponent>]
+let Component () =
+  let state, dispatch = React.useElmish(init, update, [||])
+  
   Html.div [
     Html.h1 (state.count |> string)
 

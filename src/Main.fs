@@ -1,12 +1,11 @@
 module Main
 
-open Elmish
-open Elmish.React
+open Feliz
+open Browser.Dom
+open Fable.Core.JsInterop
 
+importSideEffects "./index.css"
 
-Fable.Core.JsInterop.importSideEffects "./index.css"
+let root = ReactDOM.createRoot(document.getElementById "root")
+root.render(App.Component())
 
-Program.mkProgram App.init App.update App.render
-|> Program.withConsoleTrace
-|> Program.withReactSynchronous "elmish-app"
-|> Program.run
