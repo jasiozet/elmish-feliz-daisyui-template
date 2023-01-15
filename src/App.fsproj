@@ -3,9 +3,7 @@
     <TargetFramework>net7.0</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
-    <None Include="index.html" />
     <Compile Include="App.fs" />
-    <Compile Include="Main.fs" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Fable.Core" Version="4.0.0-theta-007" />
