@@ -3,7 +3,7 @@
   "isRoot": true,
   "tools": {
     "fable": {
-      "version": "3.7.12",
+      "version": "4.0.0-theta-018",
       "commands": [
         "fable"
       ]
@@ -15,9 +15,15 @@
       ]
     },
     "femto": {
-      "version": "0.13.0",
+      "version": "0.16.0",
       "commands": [
         "femto"
+      ]
+    },
+    "fantomas": {
+      "version": "5.1.5",
+      "commands": [
+        "fantomas"
       ]
     }
   }
