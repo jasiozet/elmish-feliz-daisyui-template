@@ -8,12 +8,6 @@
         "fable"
       ]
     },
-    "fantomas-tool": {
-      "version": "4.7.9",
-      "commands": [
-        "fantomas"
-      ]
-    },
     "femto": {
       "version": "0.16.0",
       "commands": [
